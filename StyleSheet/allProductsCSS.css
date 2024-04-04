@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    background-color: orangered;
+    width: 100%;
+    justify-content: center;
+    padding: 0 120px;
+}
+.upperNav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.usefulLink{
+    display: flex;
+    list-style: none;
+    height: 30px;
+}
+.usefulLink li{
+    list-style: none;
+}
+.usefulLink li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 0px 5px;
+}
+.appLink button{
+    border-radius: 10px;
+    display: flex;
+    padding: 5px 10px;
+    color: white;
+    background-color: #ad3c04;
+    border: #f85606;
+    cursor: pointer;    
+}
+.appLink img{
+    width: 40px;
+    height: 20px;
+}
+.appLink p{
+    color: white;
+    font-weight: 600px;
+    padding-top: 5px;
+}
+.appLink button p:hover{
+    color: #f85606;
+}
+.lowernav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    text-align: center;
+}
+.Logo{
+    width: 200px;
+    height: 40px;
+}
+.Logo img{
+    width: 90%;
+    height: 30px;
+}
+.srchbtn{
+    width: 750px;
+    display: flex;
+    padding-left: 40px;
+}
+.srchbtn input{
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btn i{
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.iCon{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+.iCon a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.iCon p{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+.Login{
+    text-align: left;
+    padding: 5px 5px;
+}
+.Login:hover{
+    background-color: #ad3c04;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.Login a i{
+    color: white;
+}
+.sign-Up{
+    padding: 5px 5px;
+}
+.sign-Up:hover{
+    background-color: #ad3c04;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.language{
+    padding: 5px 5px;
+}
+.language:hover{
+    background-color: #ad3c04;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.cart{
+    padding: 5px 5px;
+}
+.cart:hover{
+    background-color: #ad3c04;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.onSale{
+    margin: 20px 50px;
+    background-color: rgb(245, 245, 245);
+}
+.sale{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.sale p{
+    color: #ec5204;
+    padding: 5px 5px ;
+}
+.sale button{
+    padding: 5px 5px ;
+    color: #ec5204;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #ec5204;
+}
+hr{
+    color: black;
+}
+.for-allCard{
+    display: flex;
+    padding: 5px 0px 10px 0px;
+    justify-content: space-between;
+}
+.for1Card{
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+.for1Card:hover{
+    box-shadow: 5px 5px 10px rgba(235, 211, 180, 0.5);
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+}
+.for1Card a{
+    text-decoration: none;
+    color: black;
+}
+.for1Card img{
+    width: 100%;
+    height: 60%;
+}
+.for1Card p{
+    padding: auto;
+}
+.for1Card h3{
+    color: #f85606;
+}
+.for1Card s{
+    color: gray;
+}
+.pro-FullDetails{
+    display: flex;
+    width: 95%;
+    margin: 10px 40px;
+    background-color: bisque;
+}
